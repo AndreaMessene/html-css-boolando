@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    background-color: #FF6900;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    
+}
+
+li{
+    display: inline-block;
+    list-style: none; 
+    padding-right: 5px;
+}
+
+.genere, .altro{
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 60%;
+    margin: 40px auto;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+section:first-child{
+    padding-bottom: 10px;
+}
+
+.box{
+    width: calc(98% / 3);
+}
+
+.copertina{
+    position: relative;
+}
+
+img{
+    display: block;
+}
+
+.sconto{
+    text-decoration: line-through;
+}
+
+.cuore{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    right: 0;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.red{
+    padding-right: 5px;
+    color: red;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.basso{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.informazioni-legali div, .social{
+    color: white;
+}
+
+ul{
+    padding-top: 10px;
+    padding-inline-start: 0;
+    font-size: 13px;
+}
+
