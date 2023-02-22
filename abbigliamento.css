@@ -71,6 +71,10 @@ img{
     border-radius: 50%;
 }
 
+.cuore:hover{
+    color: red;
+}
+
 .red{
     padding-right: 5px;
     color: red;
@@ -98,4 +102,7 @@ ul{
     padding-inline-start: 0;
     font-size: 13px;
 }
+
+
+
 
