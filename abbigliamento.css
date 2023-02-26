@@ -50,29 +50,53 @@ section:first-child{
     position: relative;
 }
 
-img{
+.img-reset{
     display: block;
 }
 
-.sconto{
+.canc{
     text-decoration: line-through;
 }
 
-.cuore{
+.absolute{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuore{
     height: 40px;
     width: 40px;
     background-color: white;
     right: 0;
     top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 50%;
 }
 
 .cuore:hover{
     color: red;
+}
+
+.sconto{
+    background-color: red;
+}
+
+.sostenibilità{
+    background-color: green;
+    left: 43px;
+}
+
+.sostenibilità-att{
+    background-color: green;
+}
+
+.parametri{
+    bottom: 15px;
+    padding: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 .red{
@@ -103,6 +127,15 @@ ul{
     font-size: 13px;
 }
 
+.img-b{
+    display: none;
+}
 
+.card-top:hover .img-a{
+    display: none;
+}
 
+.card-top:hover .img-b{
+    display: block;
+}
 
