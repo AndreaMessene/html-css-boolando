@@ -137,5 +137,7 @@ ul{
 
 .card-top:hover .img-b{
     display: block;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 30px;
 }
 
